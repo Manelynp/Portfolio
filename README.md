@@ -5,7 +5,7 @@ This project showcases my skills, projects, and journey as a web developer.
 
 ---
 🚀 Live Demo
-👉 [(https://manelynpaypa.netlify.app/)](https://manelynpaypa.netlify.app/)
+👉 [https://manelynpaypa.netlify.app/](https://manelynpaypa.netlify.app/)
 
 ---
 
