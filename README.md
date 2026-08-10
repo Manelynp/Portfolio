@@ -5,7 +5,7 @@ This project showcases my skills, projects, and journey as a web developer.
 
 ---
 🚀 Live Demo
-👉 [Click Live Demo](https://manelynpaypa.netlify.app/)
+👉 [(https://manelynpaypa.netlify.app/)](https://manelynpaypa.netlify.app/)
 
 ---
 
@@ -70,6 +70,7 @@ Here are some of the projects featured in my portfolio:
 
 ---
 
-📄 License
+👤 Author
 
-This project is open-source and available under the MIT License.
+- GitHub: https://github.com/Manelynp
+- LinkedIn: www.linkedin.com/in/manelyn-p
