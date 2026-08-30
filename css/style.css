@@ -334,6 +334,76 @@ a {
   color: var(--accent);
 }
 
+.training-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.training-grid > * {
+  flex: 1 1 calc(50% - 24px);
+}
+
+.training-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+  padding: 24px;
+}
+
+.status {
+  display: inline-block;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.status.completed {
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--accent);
+}
+
+.status.current {
+  background: rgba(16, 185, 129, 0.12);
+  color: #047857;
+}
+
+.training-card h3 {
+  margin-bottom: 0;
+}
+
+.training-title {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.training-info {
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+
+.training-card h4 {
+  margin-top: 6px;
+  font-size: 1rem;
+}
+
+.training-card ul {
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.training-card li {
+  margin-bottom: 8px;
+}
+
 .contact {
   text-align: center;
   padding: 32px 24px;
@@ -370,13 +440,15 @@ a {
   .hero,
   .about-grid,
   .skills-container,
-  .projects-container {
+  .projects-container,
+  .training-grid {
     flex-direction: column;
   }
 
   .about-grid > *,
   .skills-container > *,
-  .projects-container > * {
+  .projects-container > *,
+  .training-grid > * {
     flex-basis: 100%;
   }
 
