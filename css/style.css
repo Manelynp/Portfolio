@@ -94,11 +94,22 @@ a {
 }
 
 .hero {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+  display: flex;
   gap: 32px;
   align-items: center;
   padding-top: 40px;
+}
+
+.hero > * {
+  flex: 1;
+}
+
+.hero-content {
+  flex: 2;
+}
+
+.hero-card {
+  flex: 1;
 }
 
 .eyebrow {
@@ -299,7 +310,11 @@ a {
 }
 
 @media (max-width: 760px) {
-  .hero,
+
+  .hero {
+    flex-direction: column;
+  }
+
   .about-grid,
   .skills-container {
     grid-template-columns: 1fr;
