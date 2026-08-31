@@ -11,8 +11,6 @@
       <a class="logo" href="index.html">Manelyn</a>
       <div class="header-actions">
         <nav class="nav-links">
-          <a href="about.html">About</a>
-          <a href="skills.html">Skills</a>
           <a href="projects.html">Projects</a>
           <a href="contact.html">Contact</a>
         </nav>
@@ -28,60 +26,200 @@
     </header>
 
     <main>
-      <section class="section">
+      <section class="section project-page-intro">
         <div class="section-heading">
-          <p class="eyebrow">Portfolio</p>
-          <h2>My Projects</h2>
+          <p class="eyebrow">Selected Work</p>
+          <h1>Projects</h1>
           <p>
-            Here are the web projects I’ve built and refined while growing as a
-            frontend developer.
+            A closer look at projects that demonstrate my experience with
+            frontend development, JavaScript, forms, data processing, and
+            interactive web functionality.
           </p>
         </div>
+      </section>
 
-        <div class="projects-container">
-          <article class="project-card">
-            <h3>🎬 Movie Reservation Website</h3>
-            <p>
-              A responsive booking experience with interactive seat selection,
-              price calculation, and a polished dark/light UI.
-            </p>
-            <p class="tech">HTML · CSS · JavaScript</p>
-            <div class="project-links">
-              <a href="#">Live Demo</a>
-              <a href="#">GitHub</a>
+      <!-- VisorPDF -->
+      <section class="section project-detail">
+        <article class="project-showcase">
+          <div class="project-label">Internship Project</div>
+          <h2>📄 VisorPDF – PDF Form Editor & Data Processing Tool</h2>
+          <p class="project-intro">
+            A web-based PDF form editor and data processing tool developed
+            during my Frontend Development internship at Evolk Bigo Solutions.
+            The project integrated PDF functionality into an existing ASP.NET
+            MVC application.
+          </p>
+          <div class="project-detail-grid">
+            <div>
+              <h3>Project Overview</h3>
+              <p>
+                The project focused on working with interactive PDF documents,
+                editable form fields, annotations, digital signatures, and
+                extracted form data. I worked with JavaScript and different PDF
+                libraries to explore and implement the required functionality
+                within the existing application.
+              </p>
+              <p>
+                The project also involved testing different approaches for
+                displaying, handling, and processing PDF form information before
+                integrating the selected solutions into the ASP.NET MVC
+                environment.
+              </p>
             </div>
-          </article>
+            <div>
+              <h3>What I Worked On</h3>
+              <ul>
+                <li>Interactive PDF form display and field handling</li>
+                <li>PDF form field name and value extraction</li>
+                <li>Conversion of extracted form data into structured JSON</li>
+                <li>Ink annotation functionality</li>
+                <li>Digital signature capture</li>
+                <li>Base64 processing of captured signatures</li>
+                <li>Frontend interaction and DOM manipulation</li>
+                <li>Adapting existing code within an ASP.NET MVC project</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project-detail-section">
+            <h3>Technologies Used</h3>
+            <div class="technology-list">
+              <span>JavaScript</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>ASP.NET MVC</span>
+              <span>PDF.js</span>
+              <span>pdf-lib</span>
+              <span>Bootstrap</span>
+              <span>jQuery</span>
+              <span>JSON</span>
+            </div>
+          </div>
 
-          <article class="project-card">
-            <h3>✈️ Travel Agency Website</h3>
-            <p>
-              A modern travel landing page with dynamic content, activity
-              options, discount logic, and a clean booking flow.
-            </p>
-            <p class="tech">HTML · CSS · JavaScript</p>
-            <div class="project-links">
-              <a href="#">Live Demo</a>
-              <a href="#">GitHub</a>
-            </div>
-          </article>
+          <div class="project-detail-section">
+            <h3>Project Screenshots</h3>
 
-          <article class="project-card">
-            <h3>🧩 Personal Portfolio</h3>
-            <p>
-              This portfolio was designed to feel professional and job-focused,
-              with strong structure and clear presentation of skills.
-            </p>
-            <p class="tech">HTML · CSS</p>
-            <div class="project-links">
-              <a href="index.html">View Home</a>
-              <a href="#">GitHub</a>
+            <div class="project-screenshots">
+              <figure>
+                <img
+                  src="./img/main-interface.PNG"
+                  alt="VisorPDF PDF form interface"
+                />
+                <figcaption>Interactive PDF form interface</figcaption>
+              </figure>
+
+              <figure>
+                <img
+                  src="./img/signature-modal.PNG"
+                  alt="VisorPDF digital signature modal"
+                />
+                <figcaption>Digital signature capture</figcaption>
+              </figure>
+
+              <figure>
+                <img
+                  src="./img/saved-signature-JSON.PNG"
+                  alt="VisorPDF extracted form data in JSON format"
+                />
+                <figcaption>Structured form data converted to JSON</figcaption>
+              </figure>
             </div>
-          </article>
-        </div>
+          </div>
+
+          <div class="project-detail-section">
+            <h3>Key Learning</h3>
+            <p>
+              This project gave me practical experience working with an existing
+              web application, debugging and adapting code, handling user input,
+              processing data, and integrating JavaScript-based functionality
+              with a backend application environment.
+            </p>
+          </div>
+          <div class="project-links">
+            <a
+              href="https://github.com/Manelynp/VisorPDF"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <!-- Travel Agency -->
+      <section class="section project-detail">
+        <article class="project-showcase">
+          <div class="project-label">Training Project</div>
+          <h2>✈️ Travel Agency Web Application</h2>
+          <p class="project-intro">
+            A responsive travel planning website developed as part of my
+            frontend web development training. The project focuses on JavaScript
+            functionality, dynamic pricing, form handling, and interactive user
+            interfaces.
+          </p>
+          <div class="project-detail-grid">
+            <div>
+              <h3>Project Overview</h3>
+              <p>
+                The website was developed around a travel booking concept,
+                allowing users to explore destinations and make selections that
+                dynamically affect the final price.
+              </p>
+              <p>
+                The project gave me practical experience applying HTML, CSS, and
+                JavaScript to create a responsive interface and implement
+                client-side functionality.
+              </p>
+            </div>
+            <div>
+              <h3>What I Implemented</h3>
+              <ul>
+                <li>Responsive page layout</li>
+                <li>Interactive destination selection</li>
+                <li>Dynamic price calculation</li>
+                <li>Activity and option selection</li>
+                <li>Discount and pricing logic</li>
+                <li>Form handling and validation</li>
+                <li>DOM manipulation</li>
+                <li>Dynamic interface updates</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project-detail-section">
+            <h3>Technologies Used</h3>
+            <div class="technology-list">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>DOM Manipulation</span>
+              <span>Form Validation</span>
+              <span>Responsive Design</span>
+            </div>
+          </div>
+          <div class="project-detail-section">
+            <h3>Key Learning</h3>
+            <p>
+              This project strengthened my understanding of JavaScript logic,
+              DOM manipulation, event handling, form processing, responsive
+              design, and creating interactive experiences from a set of project
+              requirements.
+            </p>
+          </div>
+          <div class="project-links">
+            <a
+              href="https://islaviajesyaventuras.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
       </section>
     </main>
 
     <footer class="footer">© 2026 Manelyn • Open to opportunities</footer>
+
+    <script src="./JavaScript/profile.js"></script>
   </body>
-  <script src="./JavaScript/profile.js"></script>
 </html>
