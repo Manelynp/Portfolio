@@ -25,3 +25,11 @@
         updateToggle();
       });
     }
+
+    const screenshotFigures = document.querySelectorAll('.project-screenshots figure');
+
+    screenshotFigures.forEach((figure) => {
+      figure.addEventListener('click', () => {
+        figure.classList.toggle('expanded');
+      });
+    });
