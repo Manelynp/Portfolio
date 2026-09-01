@@ -340,6 +340,7 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 16px;
+  width: fit-content;
 }
 
 .project-showcase h2 {
@@ -409,6 +410,8 @@ a {
   margin-left: 24px;
 }
 
+.project-card .tech,
+.training-card .tech,
 .tech {
   font-size: 0.95rem;
   font-weight: 700;
